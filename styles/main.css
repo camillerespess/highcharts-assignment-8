@@ -1,0 +1,28 @@
+body {
+    font-family: Raleway, Calibri, Arial, sans-serif;
+    background: #85B0B8;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+#container {
+  width: 80%;
+  height: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+#scatter {
+    width: 80%;
+    height: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+@media screen and (max-width: 730px) {
+  #container {
+    padding: 1rem;
+    }
+  #scatter {
+  padding: 1rem;
+  }
+}
